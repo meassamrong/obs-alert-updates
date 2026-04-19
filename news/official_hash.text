@@ -1,0 +1,42 @@
+OBS Alert Official Hash Reference
+Version: 2.2
+
+Algorithm: SHA256
+Official hash URL: https://raw.githubusercontent.com/meassamrong/obs-alert-updates/main/news/official_hash.text
+
+Release files:
+- Windows update package
+  Path: downloads/obs-alert-2.2-windows.zip
+  SHA256: 292928a8d880398586689e73a36fe38302af4bd3c76d1574beb10ff6333615c6
+- Latest update manifest
+  Path: update.json
+  SHA256: 8b4d3e9db8eee2397d7b19314e4a5261c4a0942eac0ebb4d971789667cf378e8
+- Versioned update manifest
+  Path: manifests/update-2.2.json
+  SHA256: 8b4d3e9db8eee2397d7b19314e4a5261c4a0942eac0ebb4d971789667cf378e8
+- Latest release notes
+  Path: release-notes.md
+  SHA256: 98ee16b23b711e3b3bea68d3c395f65a47add77f013f228c6bf0c1851763d646
+- Versioned release notes
+  Path: notes/v2.2.md
+  SHA256: 98ee16b23b711e3b3bea68d3c395f65a47add77f013f228c6bf0c1851763d646
+- Latest version marker
+  Path: latest-version.txt
+  SHA256: 0ac8bec25f70fa17479de0783fc4fc15e2c5e04a10b92057225c4bc95e48bad2
+
+Expected official build files:
+- Desktop app executable
+  Path: obs-alert.exe
+  SHA256: 71d2df4f69d038808dedb7ba26b7ebbd474b90cc2ba5ee490e1feaf18a10d697
+- Bundled Telegram login helper
+  Path: _internal/login_telegram.exe
+  SHA256: 107c65df3324cadabcae3455ae6a0ecf926352caa539a065570bb2c73c29bfa3
+- Standalone Telegram login helper
+  Path: dist/login_telegram.exe
+  SHA256: 107c65df3324cadabcae3455ae6a0ecf926352caa539a065570bb2c73c29bfa3
+
+PowerShell examples:
+Get-FileHash .\obs-alert.exe -Algorithm SHA256
+Get-FileHash .\_internal\login_telegram.exe -Algorithm SHA256
+
+If a local file hash does not match this official record, do not use the build.

@@ -1,0 +1,62 @@
+{
+  "version": "2.2",
+  "official_hash_url": "https://raw.githubusercontent.com/meassamrong/obs-alert-updates/main/news/official_hash.text",
+  "build_files": [
+    {
+      "label": "Desktop app executable",
+      "path": "obs-alert.exe",
+      "sha256": "71d2df4f69d038808dedb7ba26b7ebbd474b90cc2ba5ee490e1feaf18a10d697",
+      "scope": "local_build"
+    },
+    {
+      "label": "Bundled Telegram login helper",
+      "path": "_internal/login_telegram.exe",
+      "sha256": "107c65df3324cadabcae3455ae6a0ecf926352caa539a065570bb2c73c29bfa3",
+      "scope": "local_build"
+    },
+    {
+      "label": "Standalone Telegram login helper",
+      "path": "dist/login_telegram.exe",
+      "sha256": "107c65df3324cadabcae3455ae6a0ecf926352caa539a065570bb2c73c29bfa3",
+      "scope": "build_artifact"
+    }
+  ],
+  "release_files": [
+    {
+      "label": "Windows update package",
+      "path": "downloads/obs-alert-2.2-windows.zip",
+      "sha256": "292928a8d880398586689e73a36fe38302af4bd3c76d1574beb10ff6333615c6",
+      "scope": "release"
+    },
+    {
+      "label": "Latest update manifest",
+      "path": "update.json",
+      "sha256": "8b4d3e9db8eee2397d7b19314e4a5261c4a0942eac0ebb4d971789667cf378e8",
+      "scope": "release"
+    },
+    {
+      "label": "Versioned update manifest",
+      "path": "manifests/update-2.2.json",
+      "sha256": "8b4d3e9db8eee2397d7b19314e4a5261c4a0942eac0ebb4d971789667cf378e8",
+      "scope": "release"
+    },
+    {
+      "label": "Latest release notes",
+      "path": "release-notes.md",
+      "sha256": "98ee16b23b711e3b3bea68d3c395f65a47add77f013f228c6bf0c1851763d646",
+      "scope": "release"
+    },
+    {
+      "label": "Versioned release notes",
+      "path": "notes/v2.2.md",
+      "sha256": "98ee16b23b711e3b3bea68d3c395f65a47add77f013f228c6bf0c1851763d646",
+      "scope": "release"
+    },
+    {
+      "label": "Latest version marker",
+      "path": "latest-version.txt",
+      "sha256": "0ac8bec25f70fa17479de0783fc4fc15e2c5e04a10b92057225c4bc95e48bad2",
+      "scope": "release"
+    }
+  ]
+}
