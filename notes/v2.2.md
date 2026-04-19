@@ -1,4 +1,4 @@
-# OBS Alert 2.1
+# OBS Alert 2.2
 
 ## Release Notes
 

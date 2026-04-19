@@ -1,8 +1,8 @@
 {
   "version": "2.2",
-  "published_at": "2026-04-19T09:54:20.143042Z",
+  "published_at": "2026-04-19T10:47:53.302674Z",
   "notes": [
-    "OBS Alert 2.1",
+    "OBS Alert 2.2",
     "Release Notes",
     "Reworked the app into a cleaner OBS Alert Studio flow with refreshed dark UI across alert, goal, and donation list tools.",
     "Added real template management for Donation Goals and unified Donation Lists with create, clone, edit, delete, preview, and design pages.",
