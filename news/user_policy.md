@@ -79,7 +79,7 @@ Examples:
 For safety, only use official builds and official update announcements.
 
 Official public release and announcement source:
-- https://github.com/meassamrong/obs-alert-updates/tree/main/news/official.text
+- https://github.com/meassamrong/obs-alert-updates/tree/main/news/official_hash.text
 
 Before logging into Telegram or using production data, users should verify:
 - version number
