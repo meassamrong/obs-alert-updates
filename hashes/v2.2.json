@@ -5,19 +5,19 @@
     {
       "label": "Desktop app executable",
       "path": "obs-alert.exe",
-      "sha256": "71d2df4f69d038808dedb7ba26b7ebbd474b90cc2ba5ee490e1feaf18a10d697",
+      "sha256": "76fd2acd38d3f83870fcce43ee2b5d8cfe03ce1992c72f9882301a811bb9077b",
       "scope": "local_build"
     },
     {
       "label": "Bundled Telegram login helper",
       "path": "_internal/login_telegram.exe",
-      "sha256": "107c65df3324cadabcae3455ae6a0ecf926352caa539a065570bb2c73c29bfa3",
+      "sha256": "40d1055c59e749ae9aa621920acfaa8d07add2d05b827c21d492a52e3266e29b",
       "scope": "local_build"
     },
     {
       "label": "Standalone Telegram login helper",
       "path": "dist/login_telegram.exe",
-      "sha256": "107c65df3324cadabcae3455ae6a0ecf926352caa539a065570bb2c73c29bfa3",
+      "sha256": "40d1055c59e749ae9aa621920acfaa8d07add2d05b827c21d492a52e3266e29b",
       "scope": "build_artifact"
     }
   ],
@@ -25,19 +25,19 @@
     {
       "label": "Windows update package",
       "path": "downloads/obs-alert-2.2-windows.zip",
-      "sha256": "292928a8d880398586689e73a36fe38302af4bd3c76d1574beb10ff6333615c6",
+      "sha256": "d96a2b5d62cf6dbfe3eb72d47dd380c2adc4ec06cd32177ab613e522358d73cf",
       "scope": "release"
     },
     {
       "label": "Latest update manifest",
       "path": "update.json",
-      "sha256": "8b4d3e9db8eee2397d7b19314e4a5261c4a0942eac0ebb4d971789667cf378e8",
+      "sha256": "38e3a5a311f239d30c6bdee4f267f89d6c0bf9dd48c2f616b7df80bc5dc8fed5",
       "scope": "release"
     },
     {
       "label": "Versioned update manifest",
       "path": "manifests/update-2.2.json",
-      "sha256": "8b4d3e9db8eee2397d7b19314e4a5261c4a0942eac0ebb4d971789667cf378e8",
+      "sha256": "38e3a5a311f239d30c6bdee4f267f89d6c0bf9dd48c2f616b7df80bc5dc8fed5",
       "scope": "release"
     },
     {
