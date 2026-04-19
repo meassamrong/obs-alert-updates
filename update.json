@@ -1,15 +1,20 @@
 {
-  "version": "2",
-  "published_at": "2026-04-19T08:43:57.892248Z",
+  "version": "2.1",
+  "published_at": "2026-04-19T09:21:46.810783Z",
   "notes": [
-    "OBS Alert Release Notes",
-    "Describe the biggest change in this version.",
-    "Add one line for each user-facing improvement or fix.",
-    "Keep each line short so the updater dialog stays clean."
+    "OBS Alert 2.1",
+    "Release Notes",
+    "Reworked the app into a cleaner OBS Alert Studio flow with refreshed dark UI across alert, goal, and donation list tools.",
+    "Added real template management for Donation Goals and unified Donation Lists with create, clone, edit, delete, preview, and design pages.",
+    "Improved Donation Alert templates with better simulator flow, stronger display timing and animation behavior, and more reliable OBS playback.",
+    "Fixed leaderboard and daily-top counting so rankings now follow total donated amounts correctly and refresh more reliably on display pages.",
+    "Added desktop logging, packaged error-report export, and shared backend/frontend version syncing from one release version.",
+    "Added packaged app update support with a built-in GitHub update feed, release notes, download/install flow, and safer persistent user data across app updates.",
+    "Improved Windows packaging and release tooling, including build fixes, publish scripts, and clearer build-to-production documentation."
   ],
   "windows": {
-    "package_url": "https://raw.githubusercontent.com/meassamrong/obs-alert-updates/main/downloads/obs-alert-2-windows.zip",
-    "sha256": "b6042982ef2b3618dc75ddd0438a5bdcf922426999217feed1bed6ca0240c89e",
+    "package_url": "https://raw.githubusercontent.com/meassamrong/obs-alert-updates/main/downloads/obs-alert-2.1-windows.zip",
+    "sha256": "3c60d028276dc1de15738c12cc0c512a7a7ae03199dfa2414b4c91408d0eb22b",
     "extract_subdir": "obs-alert",
     "launch_exe": "obs-alert.exe"
   }
