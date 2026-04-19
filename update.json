@@ -1,6 +1,6 @@
 {
   "version": "2.1",
-  "published_at": "2026-04-19T09:21:46.810783Z",
+  "published_at": "2026-04-19T09:26:09.001641Z",
   "notes": [
     "OBS Alert 2.1",
     "Release Notes",
@@ -14,7 +14,7 @@
   ],
   "windows": {
     "package_url": "https://raw.githubusercontent.com/meassamrong/obs-alert-updates/main/downloads/obs-alert-2.1-windows.zip",
-    "sha256": "3c60d028276dc1de15738c12cc0c512a7a7ae03199dfa2414b4c91408d0eb22b",
+    "sha256": "4c0ad60f7ac266c20ea7a44c70e02c69debd27262cc0449f9d0cb2eb3047cf74",
     "extract_subdir": "obs-alert",
     "launch_exe": "obs-alert.exe"
   }
